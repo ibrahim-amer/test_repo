@@ -80,30 +80,78 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Steganography\AESMatlab\Matrices\CipherKeyDec.mat" />
-    <None Include="Steganography\AESMatlab\Matrices\CipherKeyHex.mat" />
-    <None Include="Steganography\AESMatlab\Matrices\matlab.mat" />
-    <None Include="Steganography\AESMatlab\Matrices\MatMixColDec.mat" />
-    <None Include="Steganography\AESMatlab\Matrices\MatMixColInv.mat" />
-    <None Include="Steganography\AESMatlab\Matrices\Rcon.mat" />
-    <None Include="Steganography\AESMatlab\Matrices\RconDec.mat" />
-    <None Include="Steganography\AESMatlab\Matrices\Sbox.mat" />
-    <None Include="Steganography\AESMatlab\Matrices\SboxDec.mat" />
-    <None Include="Steganography\AESMatlab\Matrices\SboxInv.mat" />
-    <None Include="Steganography\AESMatlab\Matrices\SboxInvDec.mat" />
-    <None Include="Steganography\AESMatlab\Matrices\StateDec.mat" />
-    <None Include="Steganography\AESMatlab\mat\CipherKeyDec.mat" />
-    <None Include="Steganography\AESMatlab\mat\CipherKeyHex.mat" />
-    <None Include="Steganography\AESMatlab\mat\matlab.mat" />
-    <None Include="Steganography\AESMatlab\mat\MatMixColDec.mat" />
-    <None Include="Steganography\AESMatlab\mat\MatMixColInv.mat" />
-    <None Include="Steganography\AESMatlab\mat\Rcon.mat" />
-    <None Include="Steganography\AESMatlab\mat\RconDec.mat" />
-    <None Include="Steganography\AESMatlab\mat\Sbox.mat" />
-    <None Include="Steganography\AESMatlab\mat\SboxDec.mat" />
-    <None Include="Steganography\AESMatlab\mat\SboxInv.mat" />
-    <None Include="Steganography\AESMatlab\mat\SboxInvDec.mat" />
-    <None Include="Steganography\AESMatlab\mat\StateDec.mat" />
+    <None Include="Steganography\AESMatlab\Matrices\CipherKeyDec.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\Matrices\CipherKeyHex.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\Matrices\matlab.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\Matrices\MatMixColDec.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\Matrices\MatMixColInv.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\Matrices\Rcon.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\Matrices\RconDec.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\Matrices\Sbox.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\Matrices\SboxDec.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\Matrices\SboxInv.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\Matrices\SboxInvDec.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\Matrices\StateDec.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\mat\CipherKeyDec.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\mat\CipherKeyHex.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\mat\matlab.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\mat\MatMixColDec.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\mat\MatMixColInv.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\mat\Rcon.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\mat\RconDec.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\mat\Sbox.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\mat\SboxDec.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\mat\SboxInv.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\mat\SboxInvDec.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Steganography\AESMatlab\mat\StateDec.mat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

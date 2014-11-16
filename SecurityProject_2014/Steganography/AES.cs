@@ -21,19 +21,12 @@
         private MWNumericArray MatMixCol;
         private MWNumericArray MatMixColInv;
         private SteganographyMatlab.AES aesMatObj;
-        private string srcStr = Path.GetDirectoryName(Path.GetDirectoryName(
-                    System.IO.Path.GetDirectoryName(
-                    System.Reflection.Assembly.GetExecutingAssembly().GetName().CodeBase))) + @"\Steganography\AESMatlab\mat\";
+        private string srcStr = Directory.GetCurrentDirectory() + @"\Steganography\AESMatlab\mat\";
         #endregion 
 
         #region Methods
         private void Init()
         {
-            string removeString = "file:\\";
-            int i = this.srcStr.IndexOf(removeString);
-            this.srcStr = (i < 0)
-                                ? this.srcStr
-                                : this.srcStr.Remove(i, removeString.Length);
             this.aesMatObj = new SteganographyMatlab.AES();
 
             this.SboxDec = (MWNumericArray)this.aesMatObj.loadmatfile((MWArray)this.srcStr + "SboxDec.mat");
@@ -66,25 +59,6 @@
             this.Init();
             this.CipherKey = CipherKey;
         }
-
-        //private string FromChars(char[,] chars)
-        //{
-        //    string str = "";
-        //    char c;
-        //    for (int i = 0; i < chars.GetLength(0); i++)
-        //    {
-        //        for (int j = 0; j < chars.GetLength(1); j++) 
-        //        {
-        //            c = chars[i, j];
-        //            if (chars[i, j] == '"')
-        //                str += "\"";
-        //             else
-        //                 str += chars[i, j];
-        //        }
-        //    }
-        //    return str;
-        //}
-       
 
         public char[] Encrypt(string plaintext)
         {
